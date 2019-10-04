@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/playlist_music"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <ImageView
+            android:src="@drawable/play_button"
+            style="@style/CategoryPlay" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/song_text_view"
+                tools:text="Something Just Like This"
+                style="@style/CategoryMusic" />
+
+            <TextView
+                android:id="@+id/artist_text_view"
+                tools:text="ColdPlay and The Chainsmokers"
+                style="@style/CategoryArtist" />
+
+        </LinearLayout>
+
+</LinearLayout>
